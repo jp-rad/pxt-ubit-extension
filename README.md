@@ -1,6 +1,12 @@
 
 > Open this page at [https://jp-rad.github.io/pxt-ubit-extension/](https://jp-rad.github.io/pxt-ubit-extension/)
 
+## Creating Extensions
+
+Extensions are PXT’s dynamic/static library mechanism for extending a target, such as the pxt-micro:bit:
+
+* [MakeCode extensions](https://makecode.com/extensions)
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
