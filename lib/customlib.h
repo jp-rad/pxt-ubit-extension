@@ -1,14 +1,15 @@
 #ifndef CUSTOMLIB_H
 #define CUSTOMLIB_H
 
+#include "pxt.h"
+
 namespace customlib {
 
     static const int minvalue = 1;
     static const int maxvalue = 3;
 
-    int countdown(int);
-    int countup(int);
+    int counter(int);
 
 }
 
-#endif
+#endif // #ifndef CUSTOMLIB_H

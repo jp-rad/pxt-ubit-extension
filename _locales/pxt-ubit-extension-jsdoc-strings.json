@@ -8,6 +8,5 @@
   "custom.foo": "TODO: describe your function here",
   "custom.foo|param|e": "describe parameter here",
   "custom.foo|param|n": "describe parameter here, eg: 5",
-  "custom.foo|param|s": "describe parameter here, eg: \"Hello\"",
-  "custom_cpp.bar": "TODO: describe your function here"
+  "custom.foo|param|s": "describe parameter here, eg: \"Hello\""
 }
