@@ -16,7 +16,7 @@ enum MyEnum {
  * icon: a Unicode identifier for an icon from the Font Awesome icon set.
  *       http://fontawesome.io/icons
  */
-//% weight=100 color=#0fbc11 icon=""
+//% weight=100 color=#696969 icon="\uf1b2"
 namespace custom {
     /**
      * TODO: describe your function here
@@ -43,7 +43,7 @@ namespace custom {
      * @param value describe value here, eg: 5
      */
     //% block
-    //% shim=custom_cpp::bar
+    //% shim=custom::bar
     export function bar(value: number): number {
         // for the simulator
         return (value + 1) % 10;
