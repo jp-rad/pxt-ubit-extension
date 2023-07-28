@@ -1,6 +1,7 @@
 {
     "name": "pxt-ubit-extension",
-    "description": "",
+    "version": "0.3.0",
+    "description": "(description: this description is written in pxt.json)",
     "dependencies": {
         "core": "*"
     },
@@ -17,7 +18,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.0.11",
+        "target": "6.0.17",
         "targetId": "microbit"
     },
     "supportedTargets": [
