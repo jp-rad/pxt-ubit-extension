@@ -1,5 +1,5 @@
 
-> Open this page at [https://jp-rad.github.io/pxt-ubit-extension/](https://jp-rad.github.io/pxt-ubit-extension/)
+> Open this page at GitHub Pages: [https://jp-rad.github.io/pxt-ubit-extension/](https://jp-rad.github.io/pxt-ubit-extension/)
 
 ## Creating Extensions
 
