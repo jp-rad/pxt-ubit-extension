@@ -7,6 +7,16 @@ Extensions are PXT’s dynamic/static library mechanism for extending a target, 
 
 * [MakeCode extensions](https://makecode.com/extensions)
 
+### Use this template
+
+* open the repository on github.  
+[https://github.com/jp-rad/pxt-ubit-extension](https://github.com/jp-rad/pxt-ubit-extension)
+* click **Use this template**.  
+[Here - https://github.com/jp-rad/pxt-ubit-extension/generate](https://github.com/jp-rad/pxt-ubit-extension/generate)
+* settings for your new repository.  
+Settings > Actions > General > Workflow permissions: **Read and write permissions**  
+Settings > Pages > branch: **master**
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
