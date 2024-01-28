@@ -1,5 +1,5 @@
 #include "pxt.h"
-#include "lib/customlib.h"
+#include "customlib.h"
 
 namespace custom {
     
