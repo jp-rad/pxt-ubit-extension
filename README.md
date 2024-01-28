@@ -44,6 +44,20 @@ This image may take a few minutes to refresh.
 -->
 ![A rendered view of the blocks](https://github.com/jp-rad/pxt-ubit-extension/raw/master/.github/statics/blocks.png)
 
+
+## Downloaded HEX file to Use as Extension
+
+Released HEX file can be imported as an **extension** in MakeCode.
+
+* open [https://github.com/jp-rad/pxt-ubit-extension/releases](https://github.com/jp-rad/pxt-ubit-extension/releases)
+* download HEX file
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* click on **New Project**
+* click on **Extensions** under the gearwheel menu
+* click on **Import File**
+* select downloaded HEX file and click on **Go ahead!**
+
+
 #### Metadata (used for search, rendering)
 
 * for PXT/microbit
