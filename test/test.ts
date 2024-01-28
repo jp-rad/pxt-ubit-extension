@@ -1,13 +1,20 @@
-// tests go here; this will not be compiled when this package is used as an extension.
+/**
+ * tests go here; this will not be compiled when this package is used as an extension.
+ */
+// bar
 input.onButtonPressed(Button.A, function () {
-    a = custom.bar(a)
+    a = custom.bar()
 })
+// baz
 input.onButtonPressed(Button.B, function () {
-    a = 0
+    a = custom.baz()
 })
 let a = 0
-a = 0
+a = -1
+basic.showString("B")
 basic.forever(function () {
-    basic.showNumber(a)
+    if (0 <= a) {
+        basic.showNumber(a)
+    }
     basic.pause(100)
 })

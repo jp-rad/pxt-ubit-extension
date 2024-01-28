@@ -1,36 +1,29 @@
 #include "pxt.h"
 #include "customlib.h"
 
-namespace customlib {
+namespace customlib
+{
 
-//================================================================
-#if MICROBIT_CODAL
-//================================================================
-    
+#if MICROBIT_CODAL // micro:bit v2
+
     /**
-     * counter
      * for micro:bit v2
-     * 
      */
-    int counter(int value) {
-        return --value < minvalue ? maxvalue : value;
+    DEVICE_RUNTIME getDeviceRuntime()
+    {
+        return DEVICE_RUNTIME::RUNTIME_CODAL;
     }
 
-//================================================================
-#else // MICROBIT_CODAL
-//================================================================
-    
+#else // micro:bit v1
+
     /**
-     * counter
      * for micro:bit v1
-     * 
      */
-    int counter(int value) {
-        return ++value > maxvalue ? minvalue : value;
+    DEVICE_RUNTIME getDeviceRuntime()
+    {
+        return DEVICE_RUNTIME::RUNTIME_DAL;
     }
 
-//================================================================
 #endif // MICROBIT_CODAL
-//================================================================
 
 }

@@ -1,11 +1,22 @@
 #include "pxt.h"
 #include "customlib.h"
 
-namespace custom {
-    
+namespace custom
+{
+    /**
+     * Block definition from C++, no implementation for simulator
+     * https://makecode.com/simshim
+     */
+    //% block
+    int bar()
+    {
+        return (int)customlib::getDeviceRuntime();
+    }
+
     //%
-    int bar(int v) {
-        return customlib::counter(v);
+    int baz()
+    {
+        return (int)customlib::getDeviceRuntime() + 5;
     }
 
 }
