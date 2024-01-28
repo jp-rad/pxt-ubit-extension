@@ -16,6 +16,7 @@ enum MyEnum {
  * icon: a Unicode identifier for an icon from the Font Awesome icon set.
  *       http://fontawesome.io/icons
  */
+//% block="Custom Blocks"
 //% weight=100 color=#696969 icon="\uf1b2"
 namespace custom {
     /**
@@ -30,22 +31,15 @@ namespace custom {
     }
 
     /**
-     * TODO: describe your function here
-     * @param value describe value here, eg: 5
+     * Using C++ in addition to the simulator implementation
+     * Read more at https://makecode.com/simshim
+     * @returns device runtime
      */
     //% block
-    export function fib(value: number): number {
-        return value <= 1 ? value : fib(value -1) + fib(value - 2);
+    //% shim=custom::baz
+    export function baz(): number {
+        // implementation for simulator
+        return DEVICE_RUNTIME.RUNTIME_SIMU + 5;
     }
 
-    /**
-     * TODO: describe your function here
-     * @param value describe value here, eg: 5
-     */
-    //% block
-    //% shim=custom::bar
-    export function bar(value: number): number {
-        // for the simulator
-        return (value + 1) % 10;
-    }
 }
