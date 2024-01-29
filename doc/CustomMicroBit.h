@@ -45,13 +45,16 @@ SOFTWARE.
 #ifndef MICROBIT_COMPONENT_RUNNING
 #define MICROBIT_COMPONENT_RUNNING 0x01
 #endif
+#ifndef CUSTOM_COMPONENT_ADDED_TO_IDLE
 #define CUSTOM_COMPONENT_ADDED_TO_IDLE 0x02
+#endif
 
 /**
  * micro:bit Message Bus ID of listener : 1-65535
  * Custom Message Bus ID : 32768-65535
+ * https://github.com/jp-rad/pxt-ubit-extension/blob/master/doc/CustomMicroBit.h 
  */
-enum YOUR_PXT_NAME_CUSTOM_BUS_ID
+enum (YOUR_PXT_NAME)_CUSTOM_BUS_ID
 {
         /**
          * S3Link UDK Event Bus ID.
