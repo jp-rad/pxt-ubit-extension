@@ -9,7 +9,6 @@
         "README.md",
         "enums.d.ts",
         "shims.d.ts",
-        "inc/CustomMicroBit.h",
         "src/custom.ts",
         "src/custom.cpp",
         "src/customlib.h",

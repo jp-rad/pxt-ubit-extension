@@ -29,7 +29,7 @@ SOFTWARE.
  *
  * See the following repository and the latest header file.
  * https://github.com/jp-rad/pxt-ubit-extension
- * https://github.com/jp-rad/pxt-ubit-extension/blob/master/inc/CustomMicroBit.h
+ * https://github.com/jp-rad/pxt-ubit-extension/blob/master/doc/CustomMicroBit.h
  *
  */
 
@@ -51,7 +51,7 @@ SOFTWARE.
  * micro:bit Message Bus ID of listener : 1-65535
  * Custom Message Bus ID : 32768-65535
  */
-enum CUSTOM_BUS_ID
+enum YOUR_PXT_NAME_CUSTOM_BUS_ID
 {
         /**
          * S3Link UDK Event Bus ID.
