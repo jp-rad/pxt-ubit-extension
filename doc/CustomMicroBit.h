@@ -33,8 +33,8 @@ SOFTWARE.
  *
  */
 
-#ifndef CUSTOMMICROBIT_H
-#define CUSTOMMICROBIT_H
+#define DONOT_USE_CUSTOMMICROBIT_H
+#ifndef DONOT_USE_CUSTOMMICROBIT_H
 
 #include "MicroBitFiber.h"
 
@@ -54,34 +54,34 @@ SOFTWARE.
  * Custom Message Bus ID : 32768-65535
  * https://github.com/jp-rad/pxt-ubit-extension/blob/master/doc/CustomMicroBit.h 
  */
-enum (YOUR_PXT_NAME)_CUSTOM_BUS_ID
+enum (YOUR_PXT_NAME)_BUS_ID
 {
         /**
-         * S3Link UDK Event Bus ID.
+         * S3Link UDK Display Command Event Bus ID.
          * (32768 + 1024 + 1 = 33793)
         */
-        CUSTOM_EVENT_ID_S3LINK_UDK = 33793,
+        S3LINKUDK_ID_DISP_CMD = 33793,
         // https://github.com/jp-rad/pxt-s3link-udk/
 
         /**
          * MState Update Event Bus ID.
          * (32768 + 1024 + 5 = 33797)
         */
-        CUSTOM_EVENT_ID_MSTATE_UPDATE = 33797,
+        MSTATE_ID_UPDATE = 33797,
         // https://github.com/jp-rad/pxt-mstate/
 
         /**
          * Idle-Timer Interval Event Bus ID.
          * (32768 + 1024 + 9 = 33801)
          */
-        CUSTOM_EVENT_ID_IDLETIMER_INTERVAL = 33801,
+        IDLETIMER_ID_INTERVAL = 33801,
         /**
          * Idle-Timer Timeout Event Bus ID.
          * (32768 + 1024 + 10 = 33802)
          */
-        CUSTOM_EVENT_ID_IDLETIMER_TIMEOUT = 33802,
+        IDLETIMER_ID_TIMEOUT = 33802,
         // https://github.com/jp-rad/pxt-idle-timer/
         
 };
 
-#endif // #ifndef CUSTOMMICROBIT_H
+#endif // #ifndef DONOT_USE_CUSTOMMICROBIT_H
