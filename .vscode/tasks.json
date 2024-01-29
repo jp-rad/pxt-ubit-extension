@@ -137,7 +137,7 @@
         "group": "build"
     },
     {
-        "label": "(vscode) Set target to micro:bit",
+        "label": "(vscode) Initialize for micro:bit",
         "type": "shell",
         "command": "echo",
         "args": [
