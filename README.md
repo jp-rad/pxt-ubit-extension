@@ -45,9 +45,9 @@ This image may take a few minutes to refresh.
 ![A rendered view of the blocks](https://github.com/jp-rad/pxt-ubit-extension/raw/master/.github/statics/blocks.png)
 
 
-**Blocks embed**
+### Blocks embed
 
-https://makecode.microbit.org/blocks-embed
+[https://makecode.microbit.org/blocks-embed](https://makecode.microbit.org/blocks-embed)
 
 Copy the following text at the bottom of your README.md file.
 
@@ -58,17 +58,24 @@ Copy the following text at the bottom of your README.md file.
 
 ```
 
+### `blocks`
+
+**Example1**
+
 ```blocks
 custom.foo(4, "Hello", MyEnum.One)
 
 ```
 
+
+**Example2**
+
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    basic.showString("" + (custom.baz()))
+    basic.showNumber(custom.baz())
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showString("" + (custom.bar()))
+    basic.showNumber(custom.bar())
 })
 
 ```
