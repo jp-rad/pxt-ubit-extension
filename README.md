@@ -45,6 +45,34 @@ This image may take a few minutes to refresh.
 ![A rendered view of the blocks](https://github.com/jp-rad/pxt-ubit-extension/raw/master/.github/statics/blocks.png)
 
 
+**Blocks embed**
+
+https://makecode.microbit.org/blocks-embed
+
+Copy the following text at the bottom of your README.md file.
+
+```
+
+<script src="https://cdn.jsdelivr.net/gh/jp-rad/pxt-ubit-extension@0.5.0/.github/statics/gh-pages-embed.js"></script>
+<script>makeCodeRender("{{ site.makecode.home_url }}", [ "custom=github:jp-rad/pxt-ubit-extension", ]);</script>
+
+```
+
+```blocks
+custom.foo(4, "Hello", MyEnum.One)
+
+```
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    basic.showString("" + (custom.baz()))
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showString("" + (custom.bar()))
+})
+
+```
+
 ## Downloaded HEX file to Use as Extension
 
 Released HEX file can be imported as an **extension** in MakeCode.
@@ -61,4 +89,6 @@ Released HEX file can be imported as an **extension** in MakeCode.
 #### Metadata (used for search, rendering)
 
 * for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+<script src="https://cdn.jsdelivr.net/gh/jp-rad/pxt-ubit-extension@0.5.0/.github/statics/gh-pages-embed.js"></script>
+<script>makeCodeRender("{{ site.makecode.home_url }}", [ "custom=github:jp-rad/pxt-ubit-extension", ]);</script>
