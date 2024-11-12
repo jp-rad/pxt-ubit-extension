@@ -6,13 +6,13 @@
         "core": "*"
     },
     "files": [
-        "README.md",
-        "enums.d.ts",
-        "shims.d.ts",
+        "src/customlib.h",
+        "src/customlib.cpp",
         "src/custom.ts",
         "src/custom.cpp",
-        "src/customlib.h",
-        "src/customlib.cpp"
+        "enums.d.ts",
+        "shims.d.ts",
+        "README.md"
     ],
     "testFiles": [
         "test/test.ts"
